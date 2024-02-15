@@ -7,7 +7,7 @@ public final class BarcoPesquero extends Barco{
     private int pecesCapturados;
     private TipoPesquero tipo;
 
-    public BarcoPesquero(int pecesCapturados, TipoPesquero tipo, String nombre, Date fecha) {
+    public BarcoPesquero(String nombre,int pecesCapturados, TipoPesquero tipo) {
         super("Barco Pesquero");
         this.pecesCapturados = 0;
         this.tipo = tipo;

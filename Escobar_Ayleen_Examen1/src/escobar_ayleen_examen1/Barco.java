@@ -9,7 +9,7 @@ public abstract class Barco {
 
     public Barco(String nombre) {
         this.nombre = nombre;
-        this.fecha = new Date();;
+        this.fecha = new Date();
     }
 
     public final String getNombre() {

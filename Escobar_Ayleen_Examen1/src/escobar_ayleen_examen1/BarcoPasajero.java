@@ -10,7 +10,7 @@ public final class BarcoPasajero extends Barco{
     private final double precioBoleto;
     private int cantPasajeros; 
 
-    public BarcoPasajero(int maxBarco, double precioBoleto) {
+    public BarcoPasajero(String nombre,int maxBarco, double precioBoleto) {
         super("Barco de Pasajeros");
         this.nombrePasajeros = new String[maxBarco];
         this.precioBoleto = precioBoleto;
